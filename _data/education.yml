@@ -1,12 +1,13 @@
 # Degree
-- degree: Sinh viên
-  uni: Irkutsk National Research Technical University
-  year: 2010 &mdash; 2015
+- degree: Bachelor of Arts, Human Rights
+  uni: Yale University
+  year: 2004 &mdash; 2008
   awards:
-    - award: Có 2 giải Nhì và 1 giải Ba Olympic toán toàn Nga và nhiều giải cấp trường và khu vực khác. 
-  summary: Tốt nghiệp kỹ sư bằng Xuất sắc, điểm trung bình 5,0
--degree: Nghiên cứu sinh
-  uni: Irkutsk National Research Technical University
-  year: 2015 đến nay
-  award: 
-  summary:
+    - award: Summa Cumme Laude graduate
+  summary: If you had any meaningful roles at college, feel free to write about them here
+
+- degree: High School Diploma
+  uni: Springfield High School
+  year: 2004
+  award: Most likely to succeed
+  summary: You can choose to have either a single or multiple awards
