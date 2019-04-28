@@ -96,6 +96,8 @@
       <!-- end Skills -->
       {% endif %}
 
+
+
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
       <section class="content-section">
@@ -142,6 +144,26 @@
       {% endif %}
 
 
+	{% if site.resume_section_skills %}
+      <!-- begin Languages -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Ngoại ngữ</h2>
+        </header>
+        {% for language in site.data.language %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ language.skill }}</h4>
+          <p class="resume-item-copy">{{ language.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Languages -->
+      {% endif %}
+
+
+
       {% if site.resume_section_experience %}
       <!-- begin Articles -->
       <section class="content-section">
@@ -152,9 +174,16 @@
 
         {% for article in site.data.articles %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ article.title }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ article.reference }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
+		<h3 class="resume-item-title" itemprop="name">{{ article.title }}</h3>
+              		{% for reference in article.articles %}
+              		<h4> <class="resume-item-details" itemprop="description"> {{ reference.name }}</h4>
+			<ul>
+			</h5> <class="resume-item-copy">
+			{{ reference.ref_rus}}
+			{{ reference.ref_en}}
+			</ul>
+			</h5>
+			{% endfor %}
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -210,12 +239,14 @@
       <!-- end Associations -->
       {% endif %}
 
+
+
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Outside Interests</h2>
+          <h2>Sở thích</h2>
         </header>
 
         <div class="resume-item">
@@ -234,7 +265,7 @@
 
 
       {% if site.resume_section_links %}
-      <!-- begin Links -->
+      <!-- begin Links 
       <section class="content-section">
 
         <header class="section-header">
@@ -250,7 +281,7 @@
         </div>
 
       </section>
-      <!-- end Links -->
+      <!-- end Links --> 
       {% endif %}
 
 
@@ -276,7 +307,7 @@
 
 
       <footer class="page-footer">
-        <p class="footer-line">CV của <a href="https://syhiendk35.github.io">Nguyễn Sỹ Hiền</a> sửa đổi nội dung lần cuối ngày 26/04/2019.</p>
+        <p class="footer-line">CV của <a href="https://syhiendk35.github.io">Nguyễn Sỹ Hiền</a> sửa đổi nội dung lần cuối ngày 28/04/2019.</p>
       </footer>
 
     </div>

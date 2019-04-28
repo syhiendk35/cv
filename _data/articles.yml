@@ -1,5 +1,36 @@
 # Báo khoa học
 
-- title: Baos 1
-  reference: Noi dung bao 1
+- title: Trong hệ thống VAK (Liên Bang Nga)
+  articles:
+   - name: Алгоритм разбиения поверхностей свободной формы по значениям кривизны при подготовке управляющих программ для станков с ЧПУ
+   - ref_rus: <li>Пономарев Б.Б., Нгуен Ш.Х. Алгоритм разбиения поверхностей свободной формы по значениям кривизны при подготовке управляющих программ для станков с ЧПУ. Вестник ИрГТУ, 2018, т. 22, № 4, с. 62–72, doi 10.21285/1814-3520-2018-4-62-72</li>
+   - ref_en: <li>Ponomarev B.B., Nguyen Sh.Kh. An algorithm for free form surface partitioning based on surface curvature values under control program development for CNC ma-chine-tools. Proceedings of Irkutsk State Technical University, 2018, vol. 22, no. 4, pp. 62–72 , doi 10.21285/1814-3520-2018-4-62-72</li>
+   
+   
+   - name: Моделирование и анализ влияния условий обработки на силы резания при концевом фрезеровании
+   - ref_rus: <li>Пономарев Б.Б., Нгуен Ш.Х. Моделирование и анализ влияния условий обработки на силы резания при концевом фрезеровании // Современные технологии. Системный анализ. Моделирование. 2018. Т. 59. № 3. С. 8–16. </li>
+   - ref_en: <li>Ponomarev B.B., Nguyen S.H. Modeling and analysis of influence of process conditions on cutting forces during end milling [Modelirovaniye i analiz vliyaniya usloviy obrabotki na sily rezaniya pri kontsevom frezerovanii]. Modern technologies, system analysis, modeling. 2018. No. 3, Pp. 8–16.</li>
+   
+   - name: Влияние ориентации инструмента на силы резания при концевом фрезеровании
+   - ref_rus: <li>Пономарев Б.Б., Нгуен Ши Хьен. Влияние ориентации инструмента на силы резания при концевом фрезеровании // Известия высших учебных заведений. Машиностроение. 2019. Т. 708. № 3. С. 11–20.</li>
+   - ref_en: <li>Ponomarev B.B., Nguyen S.H. The influence of tool orientation on cutting forces during end milling [Vliyaniye oriyentatsii instrumenta na sily rezaniya pri kontsevom frezerovanii]. Proceedings of Higher Educational Institutions. Маchine Building. 2019. No. 3, Pp. 11–20.</li>
+   
+- title: Trong hệ thống Scopus
+  articles:
+   - name: Finish milling dynamics simulation considering changing tool angles
+   - ref_rus:
+   - ref_en: <li>Ponomarev B.B., Hien N.S. Finish milling dynamics simulation considering changing tool angles. IOP Conference Series. Materials Science and Engineering, 2018, vol. 327, iss. 2, art. no. 022083, 10.1088/1757-899X/327/2/022083</li>
 
+- title: Trong hệ thống Elibrary (РИНЦ)
+  articles:   
+   - name: О классификации поверхностей свободной формы
+   - ref_rus: <li>Нгуен Ш. Х. О классификации поверхностей свободной формы // Новая наука. Совреенное состояне и пути развития. Стерлитамак. АМИ, 2016. C.99-105.</li>
+   - ref_en: <li>Nguyen S.H. On the classification of free-form surfaces [O klassifikatsii poverkhnostey svobodnoy formy] // New Science. The state and the way of development [Novaya nauka. Sovreyennoye sostoyane i puti razvitiya]. Sterlitamak. AMI, 2016, pp.99-105.</li>
+   
+   - name: Моделирование процесса концевого фрезерования в среде SIMULIA ABAQUS
+   - ref_rus: <li>Пономарев Б.Б.,Нгуен Ш. Х. Моделирование процесса концевого фрезерования в среде SIMULIA ABAQUS // III Международная научно-практическая конференция WORLD SCIENCE. Czech Republic, Karlovy Vary - Руссия, Москва, 2018, Сентября, 28-29. С.116 - 123</li>
+   - ref_en: 
+   
+   - name: Ориентация инструмента при пятикоординатной обработке поверхностей свободной формы
+   - ref_rus: <li>Пономарев Б.Б., Нгуен Ш. Х. Ориентация инструмента при пятикоординатной обработке поверхностей свободной формы // XI всероссийской научно-практической конференции "Авиа-машиностроения и транспорт Сибири", 27-28 Ноября 2018г. Ир-НИТУ</li>
+   - ref_en: 
