@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
   {% include head.html %}
@@ -101,7 +101,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Khen thưởng</h2>
         </header>
 
         {% for recognition in site.data.recognitions %}
@@ -140,6 +140,29 @@
       </section>
       <!-- end Experience -->
       {% endif %}
+
+
+      {% if site.resume_section_experience %}
+      <!-- begin Articles -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Báo khoa học đã đăng</h2>
+        </header>
+
+        {% for article in site.data.articles %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{{ article.title }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ article.reference }}</h4>
+          <p class="resume-item-copy">{{ job.summary }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end Experience -->
+      {% endif %}
+
+
 
 
       
@@ -207,6 +230,9 @@
       <!-- end Interests -->
       {% endif %}
 
+
+
+
       {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
@@ -227,6 +253,8 @@
       <!-- end Links -->
       {% endif %}
 
+
+
       {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
       <section class="content-section print-only">
@@ -242,6 +270,10 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
+
+
+
+
 
       <footer class="page-footer">
         <p class="footer-line">CV của <a href="https://syhiendk35.github.io">Nguyễn Sỹ Hiền</a> sửa đổi nội dung lần cuối ngày 26/04/2019.</p>

@@ -1,12 +1,16 @@
 # Skills
-# Organizational leadership
+# Tổ chức hoạt động tập thể, phong trào
 - skill: Tổ chức hoạt động tập thể, phong trào
-  description: Có khả năng tổ chức, lãnh đạo phong trào tập thể. Trong quá trình học đại học đã từng nắm giữ nhiều chức vụ đoàn thể như: Bí thư Chi đoàn K10, Phó bí thư LCĐ Irkutsk, Bí thư LCĐ Irkutsk, Trưởng khóa K10, Phó ban đại diện Đoàn LHS Irkutsk. Từng là trưởng ban tổ chức thiện nguyện hè của Đoàn Irkutsk tại Viện huyết học TW (Hà Nội).
+  description: <ul><li>Có khả năng tổ chức, lãnh đạo phong trào tập thể. Trong quá trình học đại học đã từng nắm giữ nhiều chức vụ đoàn thể như Bí thư Chi đoàn K10, Phó bí thư LCĐ Irkutsk, Bí thư LCĐ Irkutsk, Trưởng khóa K10, Phó ban đại diện Đoàn LHS Irkutsk. </li> <li> Từng là trưởng ban tổ chức thiện nguyện hè của Đoàn Irkutsk tại Viện huyết học TW (Hà Nội). </li> </ul>
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+# Kỹ năng sử dụng các phần mềm cơ khí
+- skill: Kỹ năng sử dụng các phần mềm cơ khí
+  description: Biết sử dụng trên mức cơ bản các phần mềm như <ul><li>Unigraphic NX</li><li>AutoCAD</li><li>Abaqus</li></ul> Biết sử dụng ở mức cơ bản các phần mềm <ul><li>Autodesk Inventor</li><li>SSCNC (HĐH Fanuc 3 trục)</li></ul>
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+# Kỹ năng sử dụng các phần mềm văn phòng
+- skill: Kỹ năng sử dụng các phần mềm văn phòng
+  description: Sử dụng thông thạo các phần mềm <ul><li>Microsoft Word</li><li>Microsoft Excel</li><li>Microsoft PowerPoint</li></ul>
+
+# Kỹ năng sử dụng các ngôn ngữ lập trình
+- skill: Kỹ năng sử dụng các ngôn ngữ lập trình
+  description: Biết sử dụng ở mức cơ bản các ngôn ngữ <ul><li>Javascript</li><li>Google App Scripts</li><li>AutoIT</li><li>Python</li></ul>
